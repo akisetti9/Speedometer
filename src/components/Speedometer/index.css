@@ -1,0 +1,54 @@
+/* Write your CSS here */
+.container {
+  width: 100vw;
+  height: 100vh;
+  padding: 36px;
+  background-color: #07080c;
+  background-size: cover;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img-size {
+  width: 60%;
+}
+@media screen and (max-width: 768px) {
+  .img-size {
+    width: 90%;
+  }
+}
+.btn-container {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.acc-btn {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-right: 24px;
+}
+.brk-btn {
+  background-color: transparent;
+  color: #94a3b8;
+  border: 2px solid #94a3b8;
+  border-radius: 8px;
+  padding: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-left: 24px;
+}
+p {
+  color: #cbd5e1;
+}
+h1 {
+  padding: 0px;
+  margin: 0px;
+}
